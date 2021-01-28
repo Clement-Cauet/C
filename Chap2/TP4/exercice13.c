@@ -33,8 +33,9 @@ int main(int argc, char *argv[]) {
  
   printf("\n******** tableau trie par ordre croissant ********\n");
  
-  for (i=0; i < 10; i++)
-     printf("%4d", tab[i]);
+  for (i=0; i < 10; i++){
+  	printf("%4d", tab[i]);
+  }
 	
 	
 getch();
